@@ -1,7 +1,7 @@
 // src/Login.js
 import React, { useState } from 'react';
 import { FirebaseApp } from 'firebase/app';
-import { auth, googleProvider, githubProvider , signInWithPopup } from '../../api/firebase';
+import { auth, googleProvider, githubProvider , signInWithGoogle } from '../../api/firebase';
  // Adjust the path based on your folder structure Adjust the path based on your folder structure
  
  const Login = () => {
@@ -29,7 +29,7 @@ import { auth, googleProvider, githubProvider , signInWithPopup } from '../../ap
        {/* Your email/password login form here */}
        
        {/* Google Sign-up button */}
-       <button onClick={handleGoogleSignIn}>Sign Up with Google</button>
+       <button onClick={signInWithGoogle}>Sign Up with Google</button>
        
        {/* GitHub Sign-up button */}
        <button onClick={handleGitHubSignIn}>Sign Up with GitHub</button>
