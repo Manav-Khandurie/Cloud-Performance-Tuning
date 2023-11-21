@@ -1,6 +1,6 @@
 // src/firebase.js
 import { initializeApp } from 'firebase/app'; // Import initializeApp function
-import { getAuth , signInWithPopup ,signInWithEmailAndPassword } from 'firebase/auth'; // Import getAuth function
+import { getAuth , signInWithPopup  } from 'firebase/auth'; // Import getAuth function
 import 'firebase/auth';
 import { GoogleAuthProvider, GithubAuthProvider } from 'firebase/auth';
 
