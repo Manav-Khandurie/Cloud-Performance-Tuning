@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+  frontend:
+    image: manavkhandurie/manavcptproject:frontend.1.1
+    ports:
+      - "80:80"
+
+  backend:
+    image: manavkhandurie/manavcptproject:backend.1.0
+    ports:
+      - "3334:3334"
+
+  # nginx:
+  #   image: manavkhandurie/manavcptproject:nginx.1.0 
+  #   ports:
+  #     - "3335:80"
+  #   depends_on:
+  #     - frontend
+  #     - backend
+  # nginx:
+  #   image: nginx:alpine
+  #   ports:
+  #     - "3335:80"
+  #   depends_on:
+  #     - frontend
+  #     - backend
+  #   environment:
+  #     - NGINX_CONFIG=server {
+  #         listen 80;
+  #         server_name localhost;
+
+  #         location / {
+  #           proxy_pass http://host.docker.internal:3334;
+  #           proxy_set_header Host $host;
+  #           proxy_set_header X-Real-IP $remote_addr;
+  #           proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  #           proxy_set_header X-Forwarded-Proto $scheme;
+  #           proxy_set_header Content-Length "";
+  #           proxy_set_header Transfer-Encoding "";
+  #           proxy_request_buffering off;
+  #           proxy_buffering off;
+  #           proxy_http_version 1.1;
+  #           chunked_transfer_encoding off;
+  #         }
+  #       }
+  #   command: /bin/sh -c "echo \"$NGINX_CONFIG\" > /etc/nginx/conf.d/default.conf && exec nginx -g 'daemon off;'"

@@ -16,14 +16,20 @@ const Login = () => {
       const nm = parts[0];
     
       // Always send the request to your backend to add email and name
-        await axios.post('http://localhost:3334/insertdata', {
-          name: nm,
-          email: email,
-        }, {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
+      await axios.post('http://localhost:3334/insertdata', { // when nginx gets configured change this
+        name: nm,
+        email: email,
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }).then(response => {
+        if (response.status === 200) {
+          alert("Data Collected!!");
+        } else {
+          console.error("Error collecting data:", response.data);
+        }
+      });
 
       // Sign up or sign in the user with Firebase based on isSignUp flag
       if (isSignUp) {
@@ -34,7 +40,6 @@ const Login = () => {
     } catch (error) {
       console.error(error.message);
     }
-    alert("Data Collected!!");
   };
 
   const handleGoogleSignIn = async () => {
