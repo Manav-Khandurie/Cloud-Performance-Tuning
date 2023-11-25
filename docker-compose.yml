@@ -7,9 +7,10 @@ services:
       - "80:80"
 
   backend:
-    image: manavkhandurie/manavcptproject:backend.1.0
+    image: manavkhandurie/manavcptproject:backend.1.1
     ports:
       - "3334:3334"
+    restart: on-failure
 
   # nginx:
   #   image: manavkhandurie/manavcptproject:nginx.1.0 
