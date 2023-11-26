@@ -1,7 +1,7 @@
 <div align='center'>
 
 
-![Logo](https://raw.githubusercontent.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/newcode/assets/logo.png)
+![Logo](https://github.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/2eefc335b23e77464839d37c1c3596a15fcc9c78/assets/logo.png)
 
 
 </div>
@@ -57,4 +57,4 @@
 <!-- <img src='https://repobeats.axiom.co/api/embed/198d5c5deedcd2c0779883bb05f1b33b2f320ca7.svg' alt="Repobeats analytics image" /> -->
 
 ### Schematic flow Diagram
-![Static Badge](https://raw.githubusercontent.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/newcode/assets/MoviePal.jpeg)
+![Architecture](https://github.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/2eefc335b23e77464839d37c1c3596a15fcc9c78/assets/MoviePal.jpeg)
