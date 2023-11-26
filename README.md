@@ -7,7 +7,7 @@
 </div>
 
 ### About the Project
-> The difficulty in modern agriculture is to optimize crop selection and resource management in the face of variable soil conditions. Traditional approaches are inefficient and have little technological leverage. This project aims to solve the problem by combining advanced algorithms, and a recommendation system. The goal is to provide farmers with a comprehensive decision-making framework that promotes data-driven decisions, increased crop productivity, and sustainable farming practices. The goal of this project is to bridge the gap between traditional agricultural wisdom and modern technology.
+> The Movie Pal application, constructed on the MERN stack and deployed on Azure, is currently grappling with performance challenges that hinder the seamless user experience. Key issues include prolonged data retrieval times from the Azure SQL database, inefficiencies in API calls to TMDb , and potential resource-intensive operations within the React frontend. These bottlenecks collectively compromise the application's responsiveness, impacting user engagement and satisfaction. The resolution of these performance issues is crucial to ensure swift access to movie information, trailers, and related content, thereby enhancing the overall user experience and maintaining the competitiveness and growth trajectory of Movie Pal.
 
 ### Tech Stack
 
@@ -54,4 +54,4 @@
 >
 > * Happy Coding!
 <br />
-<img src='https://repobeats.axiom.co/api/embed/198d5c5deedcd2c0779883bb05f1b33b2f320ca7.svg' alt="Repobeats analytics image" />
+<!-- <img src='https://repobeats.axiom.co/api/embed/198d5c5deedcd2c0779883bb05f1b33b2f320ca7.svg' alt="Repobeats analytics image" /> -->
