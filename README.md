@@ -1,7 +1,7 @@
 <div align='center'>
 
 
-![Group 26](https://github.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/newcode/MoviePal.jpg)
+![](https://github.com/Manav-Khandurie/Cloud-Performance-Tuning/blob/31b5a00b81e0bd518cd9ed1ed0be55a1742cb198/logo.png)
 
 
 </div>
